@@ -1,19 +1,21 @@
 body {
-    background-color: #f9f7fe;
+    background-color: #A1D6CB;
     font-family: sans-serif;
 }
 
 .container {
     max-width: 600px;
     margin: 60px auto;
-    background-color: white;
+    background-color: #FFF574;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
       
 }
 
+
 .city {
+    color: #354642;
     display: flex;
     margin: 10px 0;
     justify-content: space-between;
@@ -28,7 +30,6 @@ body {
 h2 {
     margin: 0 0 5px;
     font-size: 28px;
-
 }
 
 .date {
@@ -45,18 +46,22 @@ h2 {
     vertical-align: middle;
     line-height: 36px;
 }
+
 select {
+    background-color: #fdf9bd;
+    color: #354642;
     display: block;
     width: 100%;
     font-size: 18px;
     border-radius: 4px;
     padding: 10px;
 }
+
 h1 {
+    color: #354642;
     text-align: center;
     font-family: sans-serif;
     font-size: 36px;
-
 }
 
 footer {
